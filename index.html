@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 5</title>
+    <script defer src="script.js"></script>
+</head>
+<body onload="mostrarDatos()" style="background-color:Lavender;">
+    <div>
+        <label for="nombre">Nombre</label><br>
+        <input id="nombre" name="nombre" type="text" required><br><br>
+    </div>
+    <div>
+        <label for="apellido">Apellido</label><br>
+        <input id="apellido" name="apellido" type="text" required><br><br>
+    </div>
+    <div>
+        <label for="email">Email</label><br>
+        <input id="email" name="email" type="email" required><br><br>
+    </div>
+    <div>
+        <label for="facultad">Facultad</label><br>
+        <input id="facultad" name="facultad" type="text" required><br><br>
+    </div>
+    <div>
+        <label for="carrera">Carrera</label><br>
+        <input id="carrera" name="carrera" type="text" required><br><br>
+    </div>
+    <button onclick="capturarDatos()">Enviar</button>
+    <p id="estadoCookies"></p>
+    <p id="nombreCookie"></p>
+    <p id="apellidoCookie"></p>
+    <p id="emailCookie"></p>
+    <p id="facultadCookie"></p>
+    <p id="carreraCookie"></p>
+</body>
+</html>
